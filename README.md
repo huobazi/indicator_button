@@ -11,13 +11,6 @@ A Flutter Button with indicates progress
 
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
-
-
-
 - Add dependency to your pubspec.yaml
 ```yaml
 dependencies:
