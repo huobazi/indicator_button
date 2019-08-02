@@ -2,6 +2,7 @@
 
 A Flutter Button with indicates progress
 
+![Pub](https://img.shields.io/pub/v/indicator_button) ![GitHub](https://img.shields.io/github/license/huobazi/indicator_button)
 
 ## Demo:
 
