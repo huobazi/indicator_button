@@ -79,7 +79,7 @@ See the [Contributors List](https://github.com/huobazi/indicator_button/graphs/c
 
 ## CHANGE LOG
 
-See the [CHANGELOGS.md](/CHANGELOG.md).
+See the [CHANGELOGS.md](https://github.com/huobazi/indicator_button/blob/master/CHANGELOG.md).
 
 
 ## License
