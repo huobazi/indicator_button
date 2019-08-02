@@ -17,13 +17,18 @@ A Flutter Button with indicates progress
 - Add dependency to your pubspec.yaml
 ```yaml
 dependencies:
-  indicator_button: ^1.0.0
+  indicator_button: ^1.0.1
 ```
 
 - Install packages
 
 ```bash
 flutter pub get
+```
+
+- Import it
+```dart
+import 'package:indicator_button/indicator_button.dart';
 ```
 
 - Add indicator to your widget tree

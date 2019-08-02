@@ -20,7 +20,8 @@ class IndicatorButton extends StatefulWidget {
     this.backgroundColor,
     this.progressColor,
     this.borderColor,
-  })  : assert(onPressed != null),
+  })
+      : assert(onPressed != null),
         super(key: key);
 
   @override
@@ -34,7 +35,7 @@ class _IndicatorButtonState extends State<IndicatorButton>
   bool _progressing = false;
 
   @override
-  void dispose(){
+  void dispose() {
     _animationController.dispose();
     super.dispose();
   }
@@ -69,8 +70,12 @@ class _IndicatorButtonState extends State<IndicatorButton>
   @override
   Widget build(BuildContext context) {
     Color backgroundColor =
-        widget.backgroundColor ?? Theme.of(context).primaryColor;
-    Color borderColor = widget.borderColor ?? Theme.of(context).primaryColor;
+        widget.backgroundColor ?? Theme
+            .of(context)
+            .primaryColor;
+    Color borderColor = widget.borderColor ?? Theme
+        .of(context)
+        .primaryColor;
     Color progressColor = widget.progressColor ?? Colors.white;
 
     return AnimatedBuilder(

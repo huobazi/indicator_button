@@ -1,6 +1,6 @@
 name: indicator_button
 description: A Flutter Button with indicates progress. It can play an animation indicates progress when the button is pressed
-version: 1.0.0
+version: 1.0.1
 author: huobazi <huobazi@gmail.com>
 homepage: https://github.com/huobazi/indicator_button
 
