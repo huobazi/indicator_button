@@ -1,33 +1,56 @@
-# Indicator Button
+import 'package:flutter/material.dart';
+import 'package:indicator_button/indicator_button.dart';
+import 'dart:async';
 
-A Flutter Button with indicates progress
+void main() => runApp(MyApp());
 
-![Pub](https://img.shields.io/pub/v/indicator_button) ![GitHub](https://img.shields.io/github/license/huobazi/indicator_button)
+class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Indicator Button Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: MyHomePage(title: 'Indicator Button Demo'),
+    );
+  }
+}
 
-## Demo:
+class MyHomePage extends StatefulWidget {
+  MyHomePage({Key key, this.title}) : super(key: key);
 
-![Demo 1](https://github.com/huobazi/indicator_button/blob/master/demo1.gif?raw=true)
+  final String title;
 
-![Demo 2](https://github.com/huobazi/indicator_button/blob/master/demo2.gif?raw=true)
+  @override
+  _MyHomePageState createState() => _MyHomePageState();
+}
 
-![Demo 3](https://github.com/huobazi/indicator_button/blob/master/demo3.gif?raw=true)
+class _MyHomePageState extends State<MyHomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text(
+              'Tap the button:',
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            _createFollowButton(),
+          ],
+        ),
+      ),
+    );
+  }
 
-## Getting Started
-
-- Add dependency to your pubspec.yaml
-```yaml
-dependencies:
-  indicator_button: ^0.0.3
-```
-
-- Install packages
-
-```bash
-flutter pub get
-```
-
-- Add indicator to your widget tree
-```dart
   int _targetUserId = 123;
   List<int> _followingUserIdList = [123];
 
@@ -80,27 +103,4 @@ flutter pub get
       child: button,
     );
   }
-```
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
-
-## Contributors
-
-See the [Contributors List](https://github.com/huobazi/indicator_button/graphs/contributors).
-
-## CHANGE LOG
-
-See the [CHANGELOGS.md](https://github.com/huobazi/indicator_button/blob/master/CHANGELOG.md).
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/huobazi/indicator_button/blob/master/LICENSE) file for details
-
-
+}
