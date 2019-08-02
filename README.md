@@ -6,16 +6,16 @@ A Flutter Button with indicates progress
 
 ## Demo:
 
-![Demo 1](https://github.com/huobazi/indicator_button/master/demo1.gif?raw=true)
+![Demo 1](https://github.com/huobazi/indicator_button/blob/master/demo1.gif?raw=true)
 
-![Demo 2](https://github.com/huobazi/indicator_button/master/demo2.gif?raw=true)
+![Demo 2](https://github.com/huobazi/indicator_button/blob/master/demo2.gif?raw=true)
 
 ## Getting Started
 
 - Add dependency to your pubspec.yaml
 ```yaml
 dependencies:
-  indicator_button: ^0.0.1
+  indicator_button: ^0.0.3
 ```
 
 - Install packages
