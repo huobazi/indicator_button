@@ -1,3 +1,5 @@
+## [1.0.1] - 2019-08-02
+* add example doc
 ## [1.0.0] - 2019-08-02
 * add example and english demo
 ## [0.0.3] - 2019-08-02
