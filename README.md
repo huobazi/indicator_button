@@ -6,9 +6,9 @@ A Flutter Button with indicates progress
 
 ## Demo:
 
-![Demo 1](/demo1.gif?raw=true)
+![Demo 1](https://github.com/huobazi/indicator_button/master/demo1.gif?raw=true)
 
-![Demo 2](/demo2.gif?raw=true)
+![Demo 2](https://github.com/huobazi/indicator_button/master/demo2.gif?raw=true)
 
 ## Getting Started
 
@@ -84,6 +84,6 @@ See the [CHANGELOGS.md](/CHANGELOG.md).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/huobazi/indicator_button/blob/master/LICENSE) file for details
 
 
