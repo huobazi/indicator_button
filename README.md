@@ -17,7 +17,7 @@ A Flutter Button with indicates progress
 - Add dependency to your pubspec.yaml
 ```yaml
 dependencies:
-  indicator_button: ^0.0.3
+  indicator_button: ^1.0.0
 ```
 
 - Install packages
